@@ -1,0 +1,37 @@
+/*
+
+Name : Vaibhav Nasani 
+UIN  : 241P048
+Roll : 045
+Task name : WAP to find the area of a circle.
+    
+      Task Given By:    
+                  - Name : Mohammed Shayanuddin
+                  - Roll : 02
+*/
+
+
+#include <stdio.h>  
+#define PI 3.14159  
+int main()   
+{   
+float radius, area;  
+printf("Enter the radius of the circle: ");  
+scanf("%f", &radius);  
+  
+area = PI * radius * radius;  
+  
+printf("The area of the circle is: %f", area);  
+  
+return 0;  
+}  
+
+
+/*
+         OUTPUT 
+Enter the radius of the circle: 4
+The area of the circle is: 50.265442
+[Process completed - press Enter]
+
+
+*/
